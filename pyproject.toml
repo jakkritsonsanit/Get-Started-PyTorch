@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "get-started-pytorch"
+version = "0.1.0"
+description = ""
+authors = ["Jakkrit <jakkrit.sonsanit@gmail.com>"]
+readme = "README.md"
+packages = [{include = "get_started_pytorch"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.24.2"
+ipykernel = "^6.21.2"
+jupyter = "^1.0.0"
+pandas = "^1.5.3"
+scikit-learn = "^1.2.1"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
